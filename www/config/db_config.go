@@ -12,9 +12,9 @@ func DB_order() DBConfig {
     var config DBConfig
     config.Host = "127.0.0.1"
     config.Port = "3306"
-    config.User = "N5lux"
-    config.Password = "idbT3W3n0"
-    config.DBName = "v30_db_orders"
+    config.User = "root"
+    config.Password = "123456"
+    config.DBName = "db_orders"
     return config
 }
 
@@ -22,8 +22,8 @@ func DB_user() DBConfig {
     var config DBConfig
     config.Host = "127.0.0.1"
     config.Port = "3306"
-    config.User = "N5lux"
-    config.Password = "idbT3W3n0"
-    config.DBName = "v30_db_users"
+    config.User = "root"
+    config.Password = "123456"
+    config.DBName = "db_users"
     return config
 }
